@@ -10,9 +10,9 @@ public class Main {
         int difference = firstNumber - secondNumber;
         int multiplication = firstNumber * secondNumber;
         double quotient = (double) firstNumber/secondNumber;
-        System.out.println(sum);
-        System.out.println(difference);
-        System.out.println(multiplication);
-        System.out.println(quotient);
+        System.out.println("Сумма двух чисел: "+ sum);
+        System.out.println("Разность двух чисел: "+ difference);
+        System.out.println("Произведение двух чисел: "+ multiplication);
+        System.out.println("Частное5 двух чисел: "+ quotient);
     }
 }
