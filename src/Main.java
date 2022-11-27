@@ -2,8 +2,17 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Введите текст и нажмите <Enter>:");
-        String text = new Scanner(System.in).nextLine();
-        System.out.println("Длина текста: " + text.length());
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите два числа через пробел:");
+        int firstNumber = sc.nextInt();
+        int secondNumber = sc.nextInt();
+        double sum = (double) firstNumber + secondNumber;
+        double difference = (double) firstNumber - secondNumber;
+        double multiplication = (double) firstNumber * secondNumber;
+        double quotient = (double) firstNumber/secondNumber;
+        System.out.println(sum);
+        System.out.println(difference);
+        System.out.println(multiplication);
+        System.out.println(quotient);
     }
 }
