@@ -6,9 +6,9 @@ public class Main {
         System.out.println("Введите два числа через пробел:");
         int firstNumber = sc.nextInt();
         int secondNumber = sc.nextInt();
-        double sum = (double) firstNumber + secondNumber;
-        double difference = (double) firstNumber - secondNumber;
-        double multiplication = (double) firstNumber * secondNumber;
+        int sum = firstNumber + secondNumber;
+        int difference = firstNumber - secondNumber;
+        int multiplication = firstNumber * secondNumber;
         double quotient = (double) firstNumber/secondNumber;
         System.out.println(sum);
         System.out.println(difference);
